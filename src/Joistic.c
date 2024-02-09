@@ -115,6 +115,7 @@ void getJoyCenter(ADC_HandleTypeDef *ADC)
 		ADCY=(HAL_ADC_GetValue(ADC));//>>2;
 	HAL_ADC_Stop(ADC);
 	centerX=ADCX;
+	centerX=ADCX;
 	centerY=ADCY;
 }
 
